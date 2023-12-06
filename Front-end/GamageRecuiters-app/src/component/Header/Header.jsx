@@ -76,7 +76,7 @@ function Header() {
                      <p><Link to={"/Clientdiaries"}id="link-style"> Client Diaries</Link> 
                      </p>
                      
-                     <p><Link to={"/Jobvancy"}id="link-style"> Job Vacancy </Link> 
+                     <p><Link to={"/Jobvacancy"}id="link-style"> Job Vacancy </Link> 
                      </p>
     
                      <p><Link to={"/Contactus"}id="link-style"> Contact Us </Link> 
