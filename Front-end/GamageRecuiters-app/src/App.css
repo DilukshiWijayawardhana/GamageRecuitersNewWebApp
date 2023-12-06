@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&family=Inter:wght@300;400;700&family=Josefin+Sans:wght@700&family=Manrope&family=Montserrat:wght@300;500;800&family=Roboto:wght@100;300;400;500;700&display=swap');
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +40,99 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/*Footer Styling*/
+
+.footer{
+  width: 114%;
+  border-radius: 30px 30px 0px 0px; 
+  background-color: #386BC0  ;
+}
+
+.footerSelection{
+  padding: 2rem 2rem;
+}
+
+.sb_footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.sb_footer-footerLinks{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+  text-align: left;
+  margin: 2rem;
+}
+
+.sb_footer-subFooterLinks{
+  width: auto;
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: #FFFFFF;
+}
+
+a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: Josefin Sans;
+}
+
+.socialMedia{
+  display: flex;
+  flex-direction: row;
+}
+
+.icon{
+  width: 19.753px;
+  height: 14.258px; 
+  color: #2A9D8F;
+}
+
+.sb_footer-belowLinks .icons{
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 10px;
+  margin-top: 1rem
+}
+
+h4{
+  color: #2A9D8F;
+  font-family: Hind Siliguri;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline; 
+}
+.sb_footer-subFooterLinks p{
+  color: #FFF;
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  margin-left: 0.5rem;
+}
+
+hr{
+  color: #2A9D8F !important;
+  width: 100%;
+}
+
+.sb_footer-belowLinks p{
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-left: 2rem;
 }
