@@ -5,6 +5,9 @@ import Login from "./pages/Admin Login/Admin_login";
 import Register from "./pages/Admin Register/Admin_register";
 import Panel from "./pages/Admin Panel/Admin_panel";
 
+import Footer from "./pages/Components/Footer";
+import './App.css';
+
 
 function App() {
 
@@ -25,6 +28,7 @@ function App() {
         </Routes>
 
       </BrowserRouter>
+      <Footer/>
     </>
   )
 }
