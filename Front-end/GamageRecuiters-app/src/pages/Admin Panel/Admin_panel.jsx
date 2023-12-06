@@ -27,7 +27,7 @@ function App() {
     };
 
     return (
-        <MDBContainer fluid className='p-5 background-radial-gradient overflow-hidden'>
+        <MDBContainer className='p-5 background-radial-gradient ' style={{ maxWidth: '3000px' }}>
 
             <MDBRow>
 
@@ -53,11 +53,11 @@ function App() {
                     <MDBCard className='my-5 bg-glass'>
                         <MDBCardBody className='p-5'>
 
-                            <MDBBtn className='w-50 mb-4 center' size='md' onClick={navigateToJob} style={{ fontSize: '1rem' }}>View All Jobs</MDBBtn>
+                            <MDBBtn className='w-100 mb-4 ' size='md' onClick={navigateToJob} style={{ fontSize: '1rem' }}>View All Jobs</MDBBtn>
 
-                            <MDBBtn className='w-50 mb-4 center' size='md' onClick={navigateToVacancy} style={{ fontSize: '1rem' }}>Add New Job Vacancy</MDBBtn>
+                            <MDBBtn className='w-100 mb-4 ' size='md' onClick={navigateToVacancy} style={{ fontSize: '1rem' }}>Add New Job Vacancy</MDBBtn>
 
-                            <MDBBtn className='w-50 mb-4 center' size='md' onClick={navigateToApplicatiom} style={{ fontSize: '1rem' }}>View All Job Applications</MDBBtn>
+                            <MDBBtn className='w-100 mb-4 ' size='md' onClick={navigateToApplicatiom} style={{ fontSize: '1rem' }}>View All Job Applications</MDBBtn>
 
                         </MDBCardBody>
                     </MDBCard>

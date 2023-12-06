@@ -60,12 +60,12 @@ function App() {
                                 <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Subscribe to our newsletter' />
                             </div>
 
-                            <MDBBtn className='w-50 mb-4 center' size='md' style={{ fontSize: '1rem' }}>sign up</MDBBtn>
+                            <MDBBtn className='w-50 mb-4 ' size='md' style={{ fontSize: '1rem' }}>sign up</MDBBtn>
 
                             <p className="px-2 mb-1" style={{ color: 'hsl(241, 2%, 35%, 1)' }}>
                                 Already Member ?  <br /></p>
 
-                            <MDBBtn outline className='w-50 mb-4 center' onClick={navigateToLogin} style={{ fontSize: '1rem' }}>
+                            <MDBBtn outline className='w-50 mb-4 ' onClick={navigateToLogin} style={{ fontSize: '1rem' }}>
                                 sign in
                             </MDBBtn>
 
