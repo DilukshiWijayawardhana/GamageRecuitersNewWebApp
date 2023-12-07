@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
-import gamagelogo from "../../assets/ClientsBussinessIcons/gamage-logo.png";
+import gamagelogo from "../../assets/gamage-logo.png";
 import{ FaBars,FaTimes} from "react-icons/fa";
 import { useState } from "react";
 

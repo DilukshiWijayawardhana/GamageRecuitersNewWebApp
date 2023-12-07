@@ -1,9 +1,50 @@
 import Header from "../../component/Header/Header";
+import GalleryData from "./GalleryData.json";
+import { useEffect, useState } from "react";
+import "./jobvacancy.css";
 function Jobvacancy() {
+  const [data,setData] = useState([]);
+  const [collection,setCollection] = useState([]);
+
+  useEffect(()=>{
+    setData(GalleryData);
+    setCollection([... new Set(GalleryData.map((item)=> item.titile))])
+  },[]) 
+
+  const gallery_filter = (itemData) =>{
+    const filterData = GalleryData.filter((item)=> item.titile == itemData);
+    setData(filterData);
+  }
+
     return ( 
         <>
          <Header></Header>
-          <h1>job vacancy</h1>
+         <div className="App">
+              <div className="galleryWrapper">
+                <div className="filterItem">
+                  <ul>
+                    <li><button onClick={()=> setData(GalleryData)}>All</button></li>
+                    {
+                      collection.map((item)=> <li><button onClick={()=>{gallery_filter(item)}}>{item}</button></li>)
+                    }
+                  </ul>
+                </div>
+                <div className="galleryContainer">
+                  {
+                    data.map((item)=> <div  key={item.id} className="galleryItem">
+                    <img src={item.image} />
+                    <button id ="view-button">
+                      <a href={item.image}>
+                       View Now
+                       </a>
+                    </button>
+                    </div> )
+                  }
+                </div>
+
+              
+      </div>
+    </div>
         </>
      );
 }
