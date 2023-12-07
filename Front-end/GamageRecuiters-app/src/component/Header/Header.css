@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation menu*/
+
+.h-menu{
+    display: flex;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 540px;
+   
+}
+
+.h-menu p{
+    margin: 20px;
+    font-size: 16px;
+    font-family: 'Josefin Sans';
+    color: black;
+    
+}
+
+/* Link side*/
+
+#link-style{
+    color: #000;
+    text-decoration: none;
+    padding: 7px;
+}
+
+
+/* web site link hover*/
+#link-style:hover{
+    color: white;
+    background-color: #E4AD3E;
+    border-radius: 20px;
+    
+}
+
+/* login button link style*/
+
+#link-style-button{
+    color: white;
+    background-color: #E4AD3E;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+/* login button  style*/
+#login-button{
+    position: absolute;
+    width: 96px;
+    height: 33px;
+    margin-left: 1100px;
+    margin-top: 34px;
+    border-radius: 20px;
+    background-color:#E4AD3E;
+    border: none;
+    color: white;
+    font-family:sans-serif;
+    font-size: 15px;
+    
+}
+/* logo image style*/
+
+#gamge-logo{
+    width:120px ;
+    height:114px ;
+    margin-top: 34px;
+    margin-left: 64px;
+    position: absolute;
+}
+
+#header-name{
+    margin-top: 60px;
+    margin-left: 202px;
+    position: absolute;
+    font-size: 40px;
+    font-family:'Josefin Sans';
+}
+
+#header-btn{
+    visibility: hidden;
+    border: none;
+    color: white;
+    background-color:#E4AD3E;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+                                                          /* resposive*/
+@media only screen and (max-width:1300px){
+
+    
+
+#header-name{
+    font-size: 28px;
+    top: 80px;
+    position:absolute;
+    margin-left: 45%;
+    transform: translate(-40%, -40%);
+}
+
+#gamge-logo{
+        width:95px ;
+        height:90px ;
+        top: 20px;
+        margin-left: 45%;
+        margin-bottom: 10px;
+        position: absolute;
+        transform: translate(-40%, -40%);
+       
+    }
+#login-button{
+     
+        margin-left: 75%;
+        transform: translate(-40%, -40%);
+    }
+    
+
+#nav-btn {
+        visibility: visible;
+        opacity: 1;
+        color: white;
+        background-color:#E4AD3E;
+        padding: 10px;
+        border-radius: 5px;
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 50px;
+        border: none;
+    }
+
+
+.h-menu{
+        position: absolute;
+        display: inline-block;
+        background-color:#ebf0f9;
+        margin-left: 65%;
+        border-radius: px;
+    }
+
+#header-btn{
+    visibility: visible;
+    position: relative;
+    margin-left: 80%;
+    top: 80px;
+
+}
+
+#link-style{
+    font-size: 12px;
+    justify-content: center;
+    background-color: #ebf0f9;
+
+}
+
+#maximize-navigation-bar{
+    visibility: hidden;
+}
+
+
+}
+
