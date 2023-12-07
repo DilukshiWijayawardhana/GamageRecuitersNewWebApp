@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/Home";
+import Home from "./pages/Home/Homescreen/Home";
 import Contactus from "./pages/Contact Us/Contactus";
 
 import Jobvacancy from "./pages/Job-vacancy/Jobvacancy";
@@ -44,7 +44,7 @@ function App() {
 
 
       </BrowserRouter>
-      <Footer/>
+      <Footer />
     </>
   )
 }

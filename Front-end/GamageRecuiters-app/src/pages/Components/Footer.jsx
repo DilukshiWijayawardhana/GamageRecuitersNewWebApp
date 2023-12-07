@@ -9,11 +9,11 @@ import { FaTiktok } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
-import Home from './../Home/Home';
-import Contactus from './../Contact Us/Contactus';
-import Ourjourney from './../Our Journey/Ourjourney';
-import Jobvacancy from './../Job-vacancy/Jobvacancy';
-import clientdiaries from './../Client Diaries/Clientdiaries'
+// import Home from './../Home/Home';
+// import Contactus from './../Contact Us/Contactus';
+// import Ourjourney from './../Our Journey/Ourjourney';
+// import Jobvacancy from './../Job-vacancy/Jobvacancy';
+// import clientdiaries from './../Client Diaries/Clientdiaries'
 
 const Footer = () => {
     return (
