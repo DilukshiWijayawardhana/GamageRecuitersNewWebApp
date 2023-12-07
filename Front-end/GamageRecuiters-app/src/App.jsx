@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/Home";
+import Home from "./pages/Home/Homescreen/Home";
 import Contactus from "./pages/Contact Us/Contactus";
 import Login from "./pages/Admin Login/Admin_login";
 import Register from "./pages/Admin Register/Admin_register";
@@ -28,7 +28,7 @@ function App() {
         </Routes>
 
       </BrowserRouter>
-      <Footer/>
+      <Footer />
     </>
   )
 }
