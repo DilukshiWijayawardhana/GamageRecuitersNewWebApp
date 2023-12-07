@@ -11,6 +11,7 @@ import Register from "./pages/Admin Register/Admin_register";
 import Panel from "./pages/Admin Panel/Admin_panel";
 
 import Footer from "./pages/Components/Footer";
+import Apply from "./pages/Apply Jobs/Apply";
 import './App.css';
 
 
@@ -26,6 +27,8 @@ function App() {
              <Route path="/Clientdiaries" element={<Clientdiaries></Clientdiaries>}> </Route>
              <Route path="/Jobvacancy" element={<Jobvacancy></Jobvacancy>}> </Route>
              <Route path="/Ourjourney" element={<Ourjourney></Ourjourney>}> </Route>
+             
+             
       
       </Routes>
       
@@ -33,12 +36,13 @@ function App() {
           {/* client side */}
           <Route path="/" element={<Home></Home>}> </Route>
           <Route path="/Contactus" element={<Contactus></Contactus>}> </Route>
+          <Route path="/Apply" element={<Apply></Apply>}> </Route>
 
           {/* admin side */}
           <Route path="/login" element={<Login></Login>}> </Route>
           <Route path="/register" element={<Register></Register>}> </Route>
           <Route path="/panel" element={<Panel></Panel>}> </Route>
-
+          <Route path="/Apply" element={<Apply></Apply>}> </Route>
 
         </Routes>
 
