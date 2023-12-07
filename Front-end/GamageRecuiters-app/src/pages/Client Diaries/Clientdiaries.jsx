@@ -1,9 +1,15 @@
-function Client() {
+
+import Header from "../../component/Header/Header";
+
+function Clientdiaries() {
     return (
         <>
-            <h1>Contact us</h1>
+            <Header></Header>
+            <h1>Client diaries</h1>
         </>
     );
 }
 
-export default Client;
+export default Clientdiaries;
+
+
