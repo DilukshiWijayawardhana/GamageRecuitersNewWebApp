@@ -14,25 +14,41 @@ import Footer from "./pages/Components/Footer";
 //import './App.css';
 
 
+=========
+import Jobvacancy from "./pages/Job-vacancy/Jobvacancy";
+import Clientdiaries from "./pages/Client Diaries/Clientdiaries";
+import Ourjourney from "./pages/Our Journey/Ourjourney";
+>>>>>>>>> Temporary merge branch 2
 function App() {
 
   return (
     <>
       <BrowserRouter>
+<<<<<<<<< Temporary merge branch 1
+        <Routes>
+          {/* client side */}
+          <Route path="/" element={<Home></Home>}> </Route>
+          <Route path="/Contactus" element={<Contactus></Contactus>}> </Route>
+
+          {/* admin side */}
+          <Route path="/login" element={<Login></Login>}> </Route>
+          <Route path="/register" element={<Register></Register>}> </Route>
+          <Route path="/panel" element={<Panel></Panel>}> </Route>
+
+
+        </Routes>
+
+=========
       <Routes>
-             
              <Route path="/" element={<Home></Home>}> </Route>
              <Route path="/Contactus" element={<Contactus></Contactus>}> </Route>
-             <Route path="/Jobvacancy" element={<Jobvacancy></Jobvacancy>}> </Route>
              <Route path="/Clientdiaries" element={<Clientdiaries></Clientdiaries>}> </Route>
              <Route path="/Jobvacancy" element={<Jobvacancy></Jobvacancy>}> </Route>
              <Route path="/Ourjourney" element={<Ourjourney></Ourjourney>}> </Route>
-             <Route path="/login" element={<Login></Login>}> </Route>
-            <Route path="/register" element={<Register></Register>}> </Route>
-            <Route path="/panel" element={<Panel></Panel>}> </Route>
       
       </Routes>
       
+>>>>>>>>> Temporary merge branch 2
       </BrowserRouter>
       <Footer/>
     </>

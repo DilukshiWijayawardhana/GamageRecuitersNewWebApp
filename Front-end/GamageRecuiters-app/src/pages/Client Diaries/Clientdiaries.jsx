@@ -1,3 +1,14 @@
+<<<<<<<<< Temporary merge branch 1
+function Client() {
+    return (
+        <>
+            <h1>Contact us</h1>
+        </>
+    );
+}
+
+export default Client;
+=========
 import Header from "../../component/Header/Header";
 
 function Clientdiaries() {
@@ -10,5 +21,4 @@ function Clientdiaries() {
 }
 
 export default Clientdiaries;
-
-
+>>>>>>>>> Temporary merge branch 2
