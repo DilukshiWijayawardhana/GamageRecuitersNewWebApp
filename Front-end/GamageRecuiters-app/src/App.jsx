@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Contactus from "./pages/Contact Us/Contactus";
-
 import Jobvacancy from "./pages/Job-vacancy/Jobvacancy";
 import Clientdiaries from "./pages/Client Diaries/Clientdiaries";
 import Ourjourney from "./pages/Our Journey/Ourjourney";
@@ -11,9 +10,7 @@ import Register from "./pages/Admin Register/Admin_register";
 import Panel from "./pages/Admin Panel/Admin_panel";
 
 import Footer from "./pages/Components/Footer";
-import Jobvacancy from "./pages/Job-vacancy/Jobvacancy";
-import Clientdiaries from "./pages/Client Diaries/Clientdiaries";
-import Ourjourney from "./pages/Our Journey/Ourjourney";
+
 //import './App.css';
 function App() {
 
