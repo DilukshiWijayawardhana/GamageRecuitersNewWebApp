@@ -8,7 +8,6 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-
 import Home from './../Home/Home';
 import Contactus from './../Contact Us/Contactus';
 import Ourjourney from './../Our Journey/Ourjourney';
