@@ -1,3 +1,4 @@
+
 import Header from "../../component/Header/Header";
 
 function Clientdiaries() {
@@ -10,3 +11,14 @@ function Clientdiaries() {
 }
 
 export default Clientdiaries;
+
+function Client() {
+    return (
+        <>
+            <h1>Contact us</h1>
+        </>
+    );
+}
+
+export default Client;
+

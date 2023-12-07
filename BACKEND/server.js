@@ -12,6 +12,7 @@ let mongoose = require('mongoose');
 let cors = require('cors');
 let bodyParser = require('body-parser');
 let dbConfig = require('./database/db');
+let jobApplyRouter = require('./routes/JobApplyForm');
 
 //Express Rout
 
@@ -27,21 +28,25 @@ mongoose.connect(dbConfig.db, {
     }
 )
 const app = express();
+//app middleware
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: true
 }));
 
 app.use(cors());
+
 //
 //
 
 //Connection Port
-
 const port = process.env.PORT || 8070;
 const server = app.listen(port, () => {
     console.log('Connected to port ' + port)
 })
+
+// API routes
+app.use('/api/jobApply', jobApplyRouter);
 
 app.use(function (err, req, res, next) {
     console.error(err.message);
