@@ -1,0 +1,137 @@
+{
+  "industries": [
+    {
+      "id": "1",
+      "title": "FSMG",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "2",
+      "title": "E-commerce",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "3",
+      "title": "Manufacturing",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "4",
+      "title": "Software/IT",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "5",
+      "title": "Sola",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "6",
+      "title": "HR",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "7",
+      "title": "Hospitality",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "8",
+      "title": "Shipping / Preight",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    }
+  ],
+
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ],
+  "partners": [
+    {
+      "id": "1",
+      "src": "./img/1.jpeg"
+    },
+    {
+      "id": "2",
+      "src": "./img/2.jpeg"
+    },
+    {
+      "id": "3",
+      "src": "./img/3.jpeg"
+    },
+    {
+      "id": "4",
+      "src": "./img/4.jpeg"
+    },
+    {
+      "id": "5",
+      "src": "./img/5.jpeg"
+    },
+    {
+      "id": "6",
+      "src": "./img/6.jpeg"
+    },
+    {
+      "id": "7",
+      "src": "./img/7.jpeg"
+    },
+    {
+      "id": "8",
+      "src": "./img/8.jpeg"
+    },
+    {
+      "id": "9",
+      "src": "./img/9.jpeg"
+    },
+    {
+      "id": "10",
+      "src": "./img/10.jpeg"
+    },
+    {
+      "id": "11",
+      "src": "./img/11.jpeg"
+    },
+    {
+      "id": "12",
+      "src": "./img/12.jpeg"
+    },
+    {
+      "id": "13",
+      "src": "./img/13.jpeg"
+    },
+    {
+      "id": "14",
+      "src": "./img/14.jpeg"
+    },
+    {
+      "id": "15",
+      "src": "./img/15.jpeg"
+    },
+    {
+      "id": "16",
+      "src": "./img/16.jpeg"
+    }
+  ]
+}
