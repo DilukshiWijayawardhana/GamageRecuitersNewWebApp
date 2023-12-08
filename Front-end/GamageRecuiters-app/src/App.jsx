@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      
+
         <Routes>
           {/* client side */}
           <Route path="/" element={<Home></Home>}> </Route>
@@ -35,7 +35,7 @@ function App() {
 
 
       </BrowserRouter>
-      <Footer/>
+      <Footer />
     </>
   )
 }
