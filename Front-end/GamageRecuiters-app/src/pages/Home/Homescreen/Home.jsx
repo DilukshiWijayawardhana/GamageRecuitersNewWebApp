@@ -4,19 +4,22 @@ import AboutUs from "../AboutUs";
 import Testimonial from "../Testimonials";
 import Partners from "../Partners";
 import ContactUs from "../ContactUs";
+import Header from "../../../component/Header/Header";
 import Navbar from "../Navbar";
+
 
 
 export default function Home() {
     return (
         <>
-            <Navbar />
+            <Header/>
             <HeroSection />
             <Industries />
             <AboutUs />
             <Testimonial />
             <Partners />
             <ContactUs />
+            <Navbar />
         </>
     );
 }
