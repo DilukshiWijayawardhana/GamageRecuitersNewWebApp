@@ -4,11 +4,12 @@ import AboutUs from "../AboutUs";
 import Testimonial from "../Testimonials";
 import Partners from "../Partners";
 import ContactUs from "../ContactUs";
-
+import Header from "../../../component/Header/Header";
 
 export default function Home() {
     return (
         <>
+            <Header/>
             <HeroSection />
             <Industries />
             <AboutUs />
