@@ -6,7 +6,7 @@ let dbConfig = require('./database/db');
 const multer = require('multer');
 let jobApplyRouter = require('./routes/JobApplyForm');
 const jobPostRoutes = require('./routes/JobPost');
-
+const contactUsUser = require('./routes/ContactUsUser');
 //Express Rout
 
 //DB Connection
@@ -39,7 +39,7 @@ const server = app.listen(port, () => {
 // API routes
 app.use('/api/jobApply', jobApplyRouter);
 app.use('/api/jobposts', jobPostRoutes);
-
+app.use('/api/contactUsUser',contactUsUser);
 
 app.use(function (err, req, res, next) {
     console.error(err.message);
