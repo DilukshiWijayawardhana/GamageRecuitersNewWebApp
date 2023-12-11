@@ -19,6 +19,9 @@ const contactUsUserSchema = new mongoose.Schema({
   },
 });
 
-//const JobApply = mongoose.model('JobApply', jobApplySchema);
-const ContactUsUser = mongoose.model('ontactUsUser',contactUsUserSchema);
-module.exports = ContactUsUser;
+const ContactUsUser = mongoose.model('ContactUsUser', contactUsUserSchema);
+
+module.exports = ContactUsUser;;
+
+
+
