@@ -1,18 +1,11 @@
-// // Import a tool called 'express' that helps in making web applications with Node.js.
-// const express = require('express')
-// // Create a new web application using the express tool.
-// const app = express()
-
-// app.listen(3000, () => {
-//     console.log("Server running on port 3000");
-// });
-
 let express = require('express');
 let mongoose = require('mongoose');
 let cors = require('cors');
 let bodyParser = require('body-parser');
 let dbConfig = require('./database/db');
+const multer = require('multer');
 let jobApplyRouter = require('./routes/JobApplyForm');
+const jobPostRoutes = require('./routes/JobPost');
 
 //Express Rout
 
@@ -36,8 +29,6 @@ app.use(bodyParser.urlencoded({
 
 app.use(cors());
 
-//
-//
 
 //Connection Port
 const port = process.env.PORT || 8070;
@@ -47,6 +38,8 @@ const server = app.listen(port, () => {
 
 // API routes
 app.use('/api/jobApply', jobApplyRouter);
+app.use('/api/jobposts', jobPostRoutes);
+
 
 app.use(function (err, req, res, next) {
     console.error(err.message);
