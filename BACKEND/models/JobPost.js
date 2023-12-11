@@ -27,7 +27,6 @@ const JobPostSchema = new mongoose.Schema({
     required: true,
  },
  jobPost: {
-    //type: String,
     data: Buffer,
     contentType: String,
  },
