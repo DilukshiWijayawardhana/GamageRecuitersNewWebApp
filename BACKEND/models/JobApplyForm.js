@@ -15,6 +15,7 @@ const jobApplySchema = new mongoose.Schema({
   },
   jobCategory: {
     type: String,
+    enum: ['HR', 'FMCG', 'Accounting and Finance', 'Telecommunication', 'Manufacturing', 'Insurance', 'Shipping','Hospitality','Education','Other'],
     required: true,
   },
   address: {
@@ -22,8 +23,8 @@ const jobApplySchema = new mongoose.Schema({
     required: true,
   },
   cvUpload: {
-    type: String,  // This could be a file path, URL, or a reference to a storage system
-    required: true,
+    data: Buffer,
+    contentType: String,
   },
   acceptTerms: {
     type: Boolean,
@@ -31,6 +32,7 @@ const jobApplySchema = new mongoose.Schema({
   },
 });
 
-const JobApply = mongoose.model('JobApply', jobApplySchema);
+// const JobApply = mongoose.model('JobApply', jobApplySchema);
 
-module.exports = JobApply;
+// module.exports = JobApply;
+module.exports = mongoose.model('JobApply', jobApplySchema);
