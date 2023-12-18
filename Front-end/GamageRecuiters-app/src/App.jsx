@@ -9,6 +9,7 @@ import Panel from "./pages/Admin Panel/Admin_panel";
 import Footer from "./pages/Components/Footer";
 import Apply from "./pages/Apply Jobs/Apply";
 import './App.css';
+import Culturepage from "./pages/Culturepage/Culturepage";
 
 
 
@@ -24,7 +25,7 @@ function App() {
           <Route path="/Apply" element={<Apply></Apply>}> </Route>
           <Route path="/Clientdiaries" element={<Clientdiaries></Clientdiaries>}> </Route>
           <Route path="/Jobvacancy" element={<Jobvacancy></Jobvacancy>}> </Route>
-          <Route path="/Ourjourney" element={<Ourjourney></Ourjourney>}> </Route>
+          <Route path="/Culturepage" element={<Culturepage/>}> </Route>
 
           {/* admin side */}
           <Route path="/login" element={<Login></Login>}> </Route>
