@@ -12,7 +12,7 @@ function Header() {
 
   return (
     <>
-    <header>
+    <header >
 
         <div className="image-section">
 
@@ -54,7 +54,7 @@ function Header() {
                 <p><Link to={"/Jobvacancy"}id="link-style"> Job Vacancy </Link> 
                 </p>
 
-                <p><Link to={"/Contactus"}id="link-style"> Contact Us </Link> 
+                <p><Link to={"/ContactUS"}id="link-style"> Contact Us </Link> 
                 
                 </p>
 
@@ -79,7 +79,7 @@ function Header() {
                      <p><Link to={"/Jobvacancy"}id="link-style"> Job Vacancy </Link> 
                      </p>
     
-                     <p><Link to={"/Contactus"}id="link-style"> Contact Us </Link> 
+                     <p><Link to={"/ContactUS"}id="link-style"> Contact Us </Link> 
                        
                      </p>
                      

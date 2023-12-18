@@ -1,6 +1,7 @@
+/* eslint-disable react/jsx-key */
 import Header from "../../component/Header/Header";
 import Footer from "../Components/Footer.jsx";
-import GalleryData from "./GalleryData.json";
+
 import { useEffect, useState } from "react";
 import "./jobvacancy.css";
 function Jobvacancy() {
