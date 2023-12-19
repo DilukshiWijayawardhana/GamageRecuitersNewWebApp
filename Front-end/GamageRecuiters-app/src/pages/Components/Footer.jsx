@@ -40,7 +40,7 @@ const Footer = () => {
                         <a className='head' href="/Ourjurney"><p>Our Jurney</p></a>
                         <a className='head' href="/Clientdiaries"><p>Client Diaries</p></a>
                         <a className='head' href="/Jobvacancies"><p>Job Vacancies</p></a>
-                        <a className='head' href="/Contactus"><p>Contact Us</p></a>
+                        <a className='head' href="/ContactUS"><p>Contact Us</p></a>
                     </div>
 
                 </div>

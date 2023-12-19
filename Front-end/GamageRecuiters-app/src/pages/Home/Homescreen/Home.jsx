@@ -6,13 +6,14 @@ import Partners from "../Partners";
 import ContactUs from "../ContactUs";
 import Header from "../../../component/Header/Header";
 import Navbar from "../Navbar";
-
+import CarouselSlide from "../CarouselSlide";
 
 
 export default function Home() {
     return (
         <>
             <Header/>
+            <CarouselSlide/>
             <HeroSection />
             <Industries />
             <AboutUs />
