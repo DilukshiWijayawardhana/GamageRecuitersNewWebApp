@@ -8,6 +8,8 @@ import Register from "./pages/Admin Register/Admin_register";
 import Panel from "./pages/Admin Panel/Admin_panel";
 import Footer from "./pages/Components/Footer";
 import Apply from "./pages/Apply Jobs/Apply";
+import ContactUS from "./pages/Contact Us/ContactUS";
+
 import './App.css';
 import Culturepage from "./pages/Culturepage/Culturepage";
 
@@ -26,6 +28,9 @@ function App() {
           <Route path="/Clientdiaries" element={<Clientdiaries></Clientdiaries>}> </Route>
           <Route path="/Jobvacancy" element={<Jobvacancy></Jobvacancy>}> </Route>
           <Route path="/Culturepage" element={<Culturepage/>}> </Route>
+          <Route path="/Ourjourney" element={<Ourjourney></Ourjourney>}> </Route>
+          <Route path="/ContactUs" element = {<ContactUS></ContactUS>}></Route>
+
 
           {/* admin side */}
           <Route path="/login" element={<Login></Login>}> </Route>
