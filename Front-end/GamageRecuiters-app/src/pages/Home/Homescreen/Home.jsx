@@ -7,6 +7,7 @@ import ContactUs from "../ContactUs";
 import Header from "../../../component/Header/Header";
 import Navbar from "../Navbar";
 import CarouselSlide from "../CarouselSlide";
+import Inquary from "../Inquary";
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
             <Testimonial />
             <Partners />
             <ContactUs />
+            <Inquary/>
             <Navbar />
         </>
     );
