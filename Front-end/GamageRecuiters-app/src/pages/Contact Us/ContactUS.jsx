@@ -1,16 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 
+import Header from './../../component/Header/Header';
 
 const ContactUS = () => {
   return (
 
     <>
-       
+    <Header/>
     <section
           className="elementor-section elementor-top-section elementor-element elementor-element-d70a1c2 get-in-touch-class 
           elementor-section-content-top elementor-section-boxed elementor-section-height-default 
-          elementor-section-height-default"
+          elementor-section-height-default mt-40"
           data-id="d70a1c2"
           data-element_type="section"
           data-settings="{&quot;background_background&quot;:&quot;classic&quot;}"
