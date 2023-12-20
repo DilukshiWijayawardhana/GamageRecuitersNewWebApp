@@ -9,8 +9,11 @@ import Panel from "./pages/Admin Panel/Admin_panel";
 import Footer from "./pages/Components/Footer";
 import Apply from "./pages/Apply Jobs/Apply";
 import ContactUS from "./pages/Contact Us/ContactUS";
+import Inquary from "./pages/Inquary/Inquary";
+import Feedback from "./pages/Home/Feedback/Feedback";
 
 import './App.css';
+
 
 
 
@@ -28,7 +31,8 @@ function App() {
           <Route path="/Jobvacancy" element={<Jobvacancy></Jobvacancy>}> </Route>
           <Route path="/Ourjourney" element={<Ourjourney></Ourjourney>}> </Route>
           <Route path="/ContactUs" element = {<ContactUS></ContactUS>}></Route>
-
+          <Route path="/Inquary" element = {<Inquary></Inquary>}></Route>
+          <Route path="/Feedback" element = {<Feedback></Feedback>}></Route>
 
           {/* admin side */}
           <Route path="/login" element={<Login></Login>}> </Route>

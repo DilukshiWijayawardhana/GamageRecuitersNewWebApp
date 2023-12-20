@@ -1,13 +1,15 @@
 import HeroSection from "../HeroSection";
 import Industries from "../Industries";
 import AboutUs from "../AboutUs";
-import Testimonial from "../Testimonials";
+
 import Partners from "../Partners";
-import ContactUs from "../ContactUs";
 import Header from "../../../component/Header/Header";
 import Navbar from "../Navbar";
 import CarouselSlide from "../CarouselSlide";
-import Inquary from "../Inquary";
+import Inquary from "../../Inquary/Inquary";
+import Feedback from "../Feedback/Feedback";
+
+
 
 
 export default function Home() {
@@ -18,9 +20,8 @@ export default function Home() {
             <HeroSection />
             <Industries />
             <AboutUs />
-            <Testimonial />
+            <Feedback/>
             <Partners />
-            <ContactUs />
             <Inquary/>
             <Navbar />
         </>

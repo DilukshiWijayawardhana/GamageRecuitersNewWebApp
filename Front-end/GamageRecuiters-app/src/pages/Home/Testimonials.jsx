@@ -1,16 +1,34 @@
+/* eslint-disable react/jsx-key */
 import data from "../../data/index.json";
+import Slider from "react-slick";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 export default function Testimonial() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1
+  };
+    
   return (
+    
     <section className="testimonial--section" id="testimonial">
+      
       <div className="testimonial--container-box">
         <div className="testimonial--container">
           <h2 className="industries--section--heading">Customer Feedback</h2>
         </div>
       </div>
-      <div className="testimonial--section--container">
-        {data?.testimonial?.map((item, index) => (
-          <div key={index} className="testimonial--section--card">
+      
+      <div className="w-3/4 m-auto">
+
+      <div className="testimonial--section--container mt-20">
+      <Slider {...settings}>
+      {data?.testimonial?.map((item, index) => (
+      <div key={index} className="testimonial--section--card">
             <div className="testimonial--section--card--review">
               {Array.from({ length: 5 }, (reviews, index) => (
                 <svg
@@ -27,6 +45,7 @@ export default function Testimonial() {
                 </svg>
               ))}
             </div>
+         
             <p className="text-md">{item.description}</p>
             <div className="testimonial--section--card--author--detail">
               <img src={item.src} alt="Avatar" />
@@ -41,7 +60,10 @@ export default function Testimonial() {
             </div>
           </div>
         ))}
+      </Slider>
+      </div>
       </div>
     </section >
+    
   );
 }

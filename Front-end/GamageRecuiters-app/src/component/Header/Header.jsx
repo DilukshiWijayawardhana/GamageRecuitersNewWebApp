@@ -73,7 +73,7 @@ function Header() {
                      <p><Link to={"/Ourjourney"}id="link-style"> Our Journey </Link> 
                      </p>
     
-                     <p><Link to={"/Clientdiaries"}id="link-style"> Client Diaries</Link> 
+                     <p><Link to={"/Feedback"}id="link-style"> Client Diaries</Link> 
                      </p>
                      
                      <p><Link to={"/Jobvacancy"}id="link-style"> Job Vacancy </Link> 
